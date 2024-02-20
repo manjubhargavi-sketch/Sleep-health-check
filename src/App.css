@@ -1,7 +1,30 @@
 .App {
   text-align: center;
+
 }
 
+.header {
+  color: blanchedalmond;
+  background-color: black;
+}
+label{
+  
+  text-align: rigth;
+}
+
+.contents {
+  margin-top: 10vh;
+  border-color: black;
+  border-radius:10px;
+ 
+  padding-inline-start: 100px;
+
+  align-items: center;
+  display: inline-block;
+  
+  
+  justify-content: center;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,6 +47,13 @@
   color: white;
 }
 
+label {
+  /* Other styling... */
+  text-align: right;
+  clear: both;
+  float:left;
+  margin-right:15px;
+}
 .App-link {
   color: #61dafb;
 }
